@@ -29,6 +29,9 @@ taxcalc_pro/
     ├── README.md
     └── statement.md
 ```
+<img width="166" height="314" alt="image" src="https://github.com/user-attachments/assets/3214dd4f-0e7d-4191-b2c3-cd110b66ccdf" />
+
+```
 
 Split up mainly to keep each file focused on one job: `config.py` holds the slab rates and constants in one place, `core/` does the actual tax math, and `utils/` handles input validation and printing the report.
 
@@ -56,6 +59,8 @@ Ran it manually with a few cases to sanity-check the logic:
 - Non-numeric input (like "12Lakhs") → rejected, asks again
 - 80C entered above ₹1,50,000 → gets capped automatically
 - A few different income levels → both regimes calculate and the comparison picks the right one
+- <img width="355" height="346" alt="Screenshot 2026-09-27 191544" src="https://github.com/user-attachments/assets/d3b260a4-61a4-4529-bd23-016ee1d7c830" />
+
 
 ---
 **Name:** AJAY PATEL
