@@ -19,7 +19,7 @@ def get_validated_float(prompt, min_val=0.0):
 
 def get_validated_deductions():
     print("\nNow your deductions (only used for the old regime):")
-    sec_80c = get_validated_float("  Section 80C (PPF, ELSS, NPS, etc.): ")
+    sec_80c = get_validated_float("  Section 80C (SOME PREMIUM): ")
     sec_80d = get_validated_float("  Section 80D (health insurance premium): ")
     hra = get_validated_float("  HRA exemption: ")
 
