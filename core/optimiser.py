@@ -1,4 +1,4 @@
-# which is better
+# which is better(some normal calculation )
 
 def evaluate_best_regime(old_tax, new_tax):
     
