@@ -4,7 +4,7 @@ APP_TITLE = "TaxCalc"
 VERSION = "1.0.0"
 
 STANDARD_DEDUCTION = 75000
-
+#this slab data i took from the govt which i could see 
 OLD_REGIME_SLABS = [
     {"limit": 250000, "rate": 0.00},
     {"limit": 500000, "rate": 0.05},
