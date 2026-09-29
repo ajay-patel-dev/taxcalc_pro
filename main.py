@@ -11,10 +11,11 @@ def main():
     print(f" {config.APP_TITLE} v{config.VERSION} - Old vs New Regime Tax Comparison")
     print("=" * 60)
 
+    
+
     while True:
         print("\nEnter 0 to exit.")
         gross_income = get_validated_float("Gross Annual Income (₹): ")
-
         if gross_income == 0.0:
             print("\nGoodbye!")
             break
