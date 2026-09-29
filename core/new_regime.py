@@ -1,4 +1,4 @@
-#data of new 
+#data of new from the govt blogs nad more 
 
 import config
 
@@ -15,7 +15,7 @@ def calculate_new_regime_tax(gross_income):
         tax += taxed_in_this_slab * slab["rate"]
         previous_limit = slab["limit"]
 
-    # Section 87A rebate under the new regime
+    # Section 87A (i took the data form the official TAX website)
     if taxable_income <= 1200000:
         tax = 0.0
 
