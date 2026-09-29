@@ -1,4 +1,4 @@
-# data of old 
+# data of old (data from govt )(if the govt add new data or changes some ruled we can just chan the code here )
 
 import config
 
@@ -16,7 +16,7 @@ def calculate_old_regime_tax(gross_income, deductions):
         tax += taxed_in_this_slab * slab["rate"]
         previous_limit = slab["limit"]
 
-    # Section 87A rebate - no tax 
+    # Section 87A(this data is also taken from the govt main websit and from there blogs)
     if taxable_income <= 500000:
         tax = 0.0
 
